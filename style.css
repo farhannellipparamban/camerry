@@ -1,0 +1,110 @@
+.main{
+    height: 750px;
+    background-color: #9c4041;
+    background-image: url(./images/01.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo img{
+    width: 130px;
+}
+
+@media (max-width:992px){
+    .icon a{
+        display: none;
+    }
+}
+
+.color{
+    background-color: #9c4041;
+}
+.text-in{
+    margin-top: 50px;
+}
+.text-in p{
+    color: white;
+}
+.text-in h1{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: grey;
+}
+@media (max-width:760px){
+    .text-in{
+        text-align: center;
+    }
+}
+
+.footer{
+    background-color:#1c1c1c ;
+    /* height: 500px; */
+}
+
+.text-f h3 {
+    color: #7c682a;
+}
+.text-f p{
+    color: #d1bd74;
+}
+
+@media (max-width:760px){
+    .text-f{
+        text-align: center;
+    }
+}
+
+.list-last,.end{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+
+.list-end li{
+    list-style-type: none;
+    color: #d1bd74;
+}
+
+.list-last li,a{
+    list-style-type: none;
+    color: #d1bd74;
+    text-decoration: none;
+}
+
+.list-last a:hover{
+    color: #e6c755;
+    cursor: pointer;
+}
+
+@media (max-width:760px){
+    .list-last,.list-end,.end-logo{
+        text-align: center;
+    }
+}
+
+@media (min-width:990px){
+    .end-logo{
+        margin-top: 45px;
+        padding-left: 80px;
+    }
+}
+
+@media (min-width:990px){
+    .list-last{
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width:990px){
+    .end{
+        padding-bottom: 50px;
+    }
+}
+
+.bgColor{
+    background-color: black;
+}
